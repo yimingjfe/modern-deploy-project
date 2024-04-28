@@ -16,8 +16,8 @@ devDependencies:
     specifier: 0.0.0-next-20240425064656
     version: 0.0.0-next-20240425064656(typescript@5.0.4)
   '@modern-js/app-tools':
-    specifier: 2.49.1-alpha.1
-    version: 2.49.1-alpha.1(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(typescript@5.0.4)
+    specifier: 2.49.1-alpha.2
+    version: 2.49.1-alpha.2(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(typescript@5.0.4)
   '@modern-js/eslint-config':
     specifier: 0.0.0-next-20240425064656
     version: 0.0.0-next-20240425064656(typescript@5.0.4)
@@ -1984,8 +1984,8 @@ packages:
       redux: 4.2.1
     dev: false
 
-  /@modern-js/app-tools@2.49.1-alpha.1(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(typescript@5.0.4):
-    resolution: {integrity: sha512-Wl+AN75M5YZdKVSEK3zX/njGH7Lq6HD77OZTbBRyFH+Y/TFi5g8JCeama1+ABifn/5jITlaeFjxmGIZRWwjIbg==}
+  /@modern-js/app-tools@2.49.1-alpha.2(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(typescript@5.0.4):
+    resolution: {integrity: sha512-wiVpaC62vdsMy/AUm0dbKiFU7gthByTKLS020hSUA+P1NGD+0YBqgJOOwPqJnjO1YVZnxa7+JVKY7Sb6N2dVtQ==}
     engines: {node: '>=14.17.6'}
     hasBin: true
     dependencies:
