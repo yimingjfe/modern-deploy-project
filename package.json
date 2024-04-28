@@ -4,7 +4,7 @@
   "scripts": {
     "reset": "npx rimraf ./**/node_modules",
     "dev": "modern dev",
-    "build": "modern build",
+    "build": "MODERNJS_DEPLOY=vercel npx modern deploy",
     "deploy": "modern deploy",
     "start": "modern start",
     "serve": "modern serve",
