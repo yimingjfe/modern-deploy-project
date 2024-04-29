@@ -14,7 +14,7 @@
     "upgrade": "modern upgrade"
   },
   "engines": {
-    "node": ">=18.20.2"
+    "node": "=18.20.2"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,mjs,cjs}": [
@@ -31,7 +31,7 @@
     "react-dom": "~18.2.0"
   },
   "devDependencies": {
-    "@modern-js/app-tools": "2.49.1-alpha.4",
+    "@modern-js/app-tools": "2.49.1-alpha.5",
     "@modern-js/eslint-config": "0.0.0-next-20240425064656",
     "@modern-js/tsconfig": "0.0.0-next-20240425064656",
     "@modern-js-app/eslint-config": "0.0.0-next-20240425064656",
