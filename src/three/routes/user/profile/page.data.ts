@@ -1,3 +1,3 @@
 export const loader = () => {
-  return 'two user';
+  return 'request profile page';
 };
