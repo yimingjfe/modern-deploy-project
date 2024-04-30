@@ -11,6 +11,7 @@ const Index = () => (
       />
     </Helmet>
     <main>
+      two
       <div className="title">
         Welcome to
         <img
