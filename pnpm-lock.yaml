@@ -5,8 +5,8 @@ dependencies:
     specifier: 0.0.0-next-20240425064656
     version: 0.0.0-next-20240425064656(react-dom@18.2.0)(react@18.2.0)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(zod@3.23.5)
   '@modern-js/plugin-express':
-    specifier: 0.0.0-next-20240425064656
-    version: 0.0.0-next-20240425064656(express@4.19.2)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(zod@3.23.5)
+    specifier: 2.49.2
+    version: 2.49.2(express@4.19.2)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(zod@3.23.5)
   '@modern-js/runtime':
     specifier: 0.0.0-next-20240425064656
     version: 0.0.0-next-20240425064656(@types/react-dom@18.0.10)(@types/react@18.0.26)(react-dom@18.2.0)(react@18.2.0)(webpack@5.91.0)
@@ -28,8 +28,8 @@ devDependencies:
     specifier: 0.0.0-next-20240425064656
     version: 0.0.0-next-20240425064656(typescript@5.0.4)
   '@modern-js/app-tools':
-    specifier: 2.49.1-alpha.16
-    version: 2.49.1-alpha.16(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4)
+    specifier: 2.49.1-alpha.17
+    version: 2.49.1-alpha.17(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4)
   '@modern-js/eslint-config':
     specifier: 0.0.0-next-20240425064656
     version: 0.0.0-next-20240425064656(typescript@5.0.4)
@@ -1911,8 +1911,8 @@ packages:
       redux: 4.2.1
     dev: false
 
-  /@modern-js/app-tools@2.49.1-alpha.16(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4):
-    resolution: {integrity: sha512-Wa04z3a1YnyhErJjEOz1kDwyvZjsfYihMzSi4Q50TcZlCvpu6jF+L7rfB/wgRpQCDrgIXbXciiSi7cQzAD4T5w==}
+  /@modern-js/app-tools@2.49.1-alpha.17(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4):
+    resolution: {integrity: sha512-iOWL3JU5/5ozYknVQSITsBbji31z3/YM5e7vv7IekHbcwSqeYJOQVopv95HeXko3lhm2TmKvsi6ohZyXkru4Iw==}
     engines: {node: '>=14.17.6'}
     hasBin: true
     dependencies:
@@ -2034,8 +2034,28 @@ packages:
       zod: 3.23.5
     dev: false
 
-  /@modern-js/bff-runtime@0.0.0-next-20240425064656:
-    resolution: {integrity: sha512-oh0yHoAGzo5H9+7PpQge+cMY7ep2raFysJC772Rj3d5f/qnJM+tAsEcyj078XXsExEpgtJ57k1tp19f8fYNefw==}
+  /@modern-js/bff-core@2.49.2(ts-node@10.9.2)(tsconfig-paths@4.2.0)(zod@3.23.5):
+    resolution: {integrity: sha512-v/Q4ig4969dpOYXMuaoVhJgOI/gOK0PFoVSbW/ICqdH8GE3MZYt7L/3oxW9TalvNY5MygJdIu4z15m96JbU0+A==}
+    peerDependencies:
+      ts-node: ^10.9.1
+      tsconfig-paths: ^4.1.2
+      zod: ^3.22.3
+    peerDependenciesMeta:
+      zod:
+        optional: true
+    dependencies:
+      '@modern-js/utils': 2.49.2
+      '@swc/helpers': 0.5.3
+      koa-compose: 4.1.0
+      reflect-metadata: 0.1.14
+      ts-node: 10.9.2(@types/node@16.11.7)(typescript@5.0.4)
+      tsconfig-paths: 4.2.0
+      type-fest: 2.15.0
+      zod: 3.23.5
+    dev: false
+
+  /@modern-js/bff-runtime@2.49.2:
+    resolution: {integrity: sha512-lOtrtDzjFZTihLfwRsOfdLaDF1e31vToy9mfPTvOs3Puwla5Vp5hsr8AK0YL6PsOY05545fpr/mOjMdtJV/g4w==}
     dependencies:
       '@swc/helpers': 0.5.3
       farrow-api: 1.12.1
@@ -2122,15 +2142,15 @@ packages:
       - supports-color
     dev: true
 
-  /@modern-js/plugin-express@0.0.0-next-20240425064656(express@4.19.2)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(zod@3.23.5):
-    resolution: {integrity: sha512-5SajIT2U8vc+qBwTJOVXmNDi/tWhhlDcR3ru7WR1ubhNZXLK4TZRMvrg/ivbjLVb5DCmtDsMSvuYgfi0I8vTyw==}
+  /@modern-js/plugin-express@2.49.2(express@4.19.2)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(zod@3.23.5):
+    resolution: {integrity: sha512-TGuBLknWXN4qMuXbsMu2nkHQlyDLNvs04nguUhmnmTBvJZYcMTDZ+7ypAtFcgWgSoSkvm8NhN6AwgCBg3m1WpQ==}
     peerDependencies:
       express: ^4.17.1
     dependencies:
-      '@modern-js/bff-core': 0.0.0-next-20240425064656(ts-node@10.9.2)(tsconfig-paths@4.2.0)(zod@3.23.5)
-      '@modern-js/bff-runtime': 0.0.0-next-20240425064656
-      '@modern-js/types': 0.0.0-next-20240425064656
-      '@modern-js/utils': 0.0.0-next-20240425064656
+      '@modern-js/bff-core': 2.49.2(ts-node@10.9.2)(tsconfig-paths@4.2.0)(zod@3.23.5)
+      '@modern-js/bff-runtime': 2.49.2
+      '@modern-js/types': 2.49.2
+      '@modern-js/utils': 2.49.2
       '@swc/helpers': 0.5.3
       cookie-parser: 1.4.6
       express: 4.19.2
@@ -2405,6 +2425,10 @@ packages:
     resolution: {integrity: sha512-pmHXdsCGxs0OJfJ4DNBwT963z6txdwPFHptMwY8OnJ3O46D3xIHClBzD2zUHVgSYJwXPv8gipbewnEBk0TUnJA==}
     dev: true
 
+  /@modern-js/types@2.49.2:
+    resolution: {integrity: sha512-mnrTQYVQEyEzVAVs3lPmg231atuopPRpTUPzjoDxPgcsmMsjkr8jD+JChDXkifT/Nx1eER6nMXNC3dX20YQMaA==}
+    dev: false
+
   /@modern-js/uni-builder@2.49.0(@babel/traverse@7.24.1)(esbuild@0.17.19)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4):
     resolution: {integrity: sha512-OdQ/TH6Kd9oIkIS8W1IUDR9Ewr06KZ1IeAUSUCEKmH0aJQl9i0moq6FdEJlP8imSyZU/54CPUrnZ+ICxGIyQww==}
     dependencies:
@@ -2503,6 +2527,15 @@ packages:
       lodash: 4.17.21
       rslog: 1.2.1
     dev: true
+
+  /@modern-js/utils@2.49.2:
+    resolution: {integrity: sha512-Xm4Zg17bbKWT23I0FEJ7sED2w8CMzTMvydaYsl5IUDoHTqo4iOOVm1Q+o+iYNBICclLZD9UuNCou7xpBOSPNoQ==}
+    dependencies:
+      '@swc/helpers': 0.5.3
+      caniuse-lite: 1.0.30001612
+      lodash: 4.17.21
+      rslog: 1.2.1
+    dev: false
 
   /@module-federation/runtime-tools@0.1.6:
     resolution: {integrity: sha512-7ILVnzMIa0Dlc0Blck5tVZG1tnk1MmLnuZpLOMpbdW+zl+N6wdMjjHMjEZFCUAJh2E5XJ3BREwfX8Ets0nIkLg==}

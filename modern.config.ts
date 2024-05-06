@@ -9,11 +9,14 @@ export default defineConfig({
   },
   plugins: [
     appTools({
-      bundler: 'webpack', // Set to 'experimental-rspack' to enable rspack ⚡️🦀
+      bundler: 'experimental-rspack', // Set to 'experimental-rspack' to enable rspack ⚡️🦀
     }),
     bffPlugin(),
     expressPlugin(),
   ],
+  bff: {
+    prefix: '/bff-api',
+  },
   server: {
     ssr: {
       mode: 'stream',
