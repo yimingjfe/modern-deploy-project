@@ -7,7 +7,7 @@
     "paths": {
       "@/*": ["./src/*"],
       "@shared/*": ["./shared/*"],
-      "@api/*": ["./api/*"]
+      "@api/*": ["./api/lambda/*"]
     }
   },
   "include": ["src", "api", "shared", "config", "modern.config.ts"],
