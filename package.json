@@ -4,7 +4,7 @@
   "scripts": {
     "reset": "npx rimraf ./**/node_modules",
     "dev": "modern dev",
-    "build": "MODERNJS_DEPLOY=vercel npx modern deploy",
+    "build": "npx modern deploy",
     "deploy": "modern deploy",
     "start": "modern start",
     "serve": "modern serve",
@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@modern-js-app/eslint-config": "0.0.0-next-20240425064656",
-    "@modern-js/app-tools": "2.49.1-alpha.17",
+    "@modern-js/app-tools": "2.49.1-alpha.18",
     "@modern-js/eslint-config": "0.0.0-next-20240425064656",
     "@modern-js/tsconfig": "0.0.0-next-20240425064656",
     "@types/express": "^4.17.21",

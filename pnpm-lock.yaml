@@ -28,8 +28,8 @@ devDependencies:
     specifier: 0.0.0-next-20240425064656
     version: 0.0.0-next-20240425064656(typescript@5.0.4)
   '@modern-js/app-tools':
-    specifier: 2.49.1-alpha.17
-    version: 2.49.1-alpha.17(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4)
+    specifier: 2.49.1-alpha.18
+    version: 2.49.1-alpha.18(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4)
   '@modern-js/eslint-config':
     specifier: 0.0.0-next-20240425064656
     version: 0.0.0-next-20240425064656(typescript@5.0.4)
@@ -1911,8 +1911,8 @@ packages:
       redux: 4.2.1
     dev: false
 
-  /@modern-js/app-tools@2.49.1-alpha.17(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4):
-    resolution: {integrity: sha512-iOWL3JU5/5ozYknVQSITsBbji31z3/YM5e7vv7IekHbcwSqeYJOQVopv95HeXko3lhm2TmKvsi6ohZyXkru4Iw==}
+  /@modern-js/app-tools@2.49.1-alpha.18(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4):
+    resolution: {integrity: sha512-poDVAPf54RHbCbUDLDFHBVbKCpYjQAv72ZGHI7byV8arfVKHuDf7uEW0+Sq+/d4X44Wexouwa+wDgdQugzspJA==}
     engines: {node: '>=14.17.6'}
     hasBin: true
     dependencies:
@@ -1943,6 +1943,7 @@ packages:
       esbuild-register: 3.5.0(esbuild@0.17.19)
       mlly: 1.6.1
       pkg-types: 1.1.0
+      std-env: 3.7.0
     transitivePeerDependencies:
       - '@parcel/css'
       - '@rspack/core'
@@ -9176,6 +9177,10 @@ packages:
     resolution: {integrity: sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==}
     engines: {node: '>= 0.8'}
     dev: false
+
+  /std-env@3.7.0:
+    resolution: {integrity: sha512-JPbdCEQLj1w5GilpiHAx3qJvFndqybBysA3qUOnznweH4QbNYUsW/ea8QzSrnh0vNsezMMw5bcVool8lM0gwzg==}
+    dev: true
 
   /stream-browserify@3.0.0:
     resolution: {integrity: sha512-H73RAHsVBapbim0tU2JwwOiXUj+fikfiaoYAKHF3VJfA0pe2BCzkhAHBlLG6REzE+2WNZcxOXjK7lkso+9euLA==}
