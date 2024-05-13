@@ -16,8 +16,8 @@ devDependencies:
     specifier: 0.0.0-next-20240425064656
     version: 0.0.0-next-20240425064656(typescript@5.0.4)
   '@modern-js/app-tools':
-    specifier: 2.49.3-alpha.8
-    version: 2.49.3-alpha.8(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(typescript@5.0.4)
+    specifier: 2.49.3-alpha.17
+    version: 2.49.3-alpha.17(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(typescript@5.0.4)
   '@modern-js/eslint-config':
     specifier: 0.0.0-next-20240425064656
     version: 0.0.0-next-20240425064656(typescript@5.0.4)
@@ -1984,8 +1984,8 @@ packages:
       redux: 4.2.1
     dev: false
 
-  /@modern-js/app-tools@2.49.3-alpha.8(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(typescript@5.0.4):
-    resolution: {integrity: sha512-PYbpPTbvmkJiscT8TwVqcLlJWldU0/jKcQtjXfTZI/+gAHHFPQsicVrDnLHUAXt7lDkAGKpumCFUC4QRR3RXEw==}
+  /@modern-js/app-tools@2.49.3-alpha.17(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(typescript@5.0.4):
+    resolution: {integrity: sha512-Ue8Gj52abzDeDMQ1p/DPbOehBmXptWBv3QcW3VCwzfCefH7FyT8sXSptkbiri/WovdlvGls3Kiil/DZIEJKupw==}
     engines: {node: '>=14.17.6'}
     hasBin: true
     dependencies:
@@ -2884,7 +2884,7 @@ packages:
     resolution: {integrity: sha512-MqaVYNRcq/eT7TNt/iMQzdyN71WwT1wEonnJIz4/x5wV0sf82BN0rrIwFLBSkEO/0HBf1K5bKGTjX727tJNztw==}
     dependencies:
       '@rspack/core': 0.6.2(@swc/helpers@0.5.3)
-      caniuse-lite: 1.0.30001612
+      caniuse-lite: 1.0.30001617
       postcss: 8.4.38
     transitivePeerDependencies:
       - '@swc/helpers'
