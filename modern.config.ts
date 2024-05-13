@@ -7,7 +7,7 @@ export default defineConfig({
   },
   plugins: [
     appTools({
-      bundler: 'experimental-rspack', // Set to 'experimental-rspack' to enable rspack ⚡️🦀
+      bundler: 'webpack', // Set to 'experimental-rspack' to enable rspack ⚡️🦀
     }),
   ],
   server: {
