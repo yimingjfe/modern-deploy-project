@@ -28,8 +28,8 @@ devDependencies:
     specifier: 0.0.0-next-20240425064656
     version: 0.0.0-next-20240425064656(typescript@5.0.4)
   '@modern-js/app-tools':
-    specifier: 2.49.3-alpha.16
-    version: 2.49.3-alpha.16(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4)
+    specifier: 2.49.3-alpha.18
+    version: 2.49.3-alpha.18(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4)
   '@modern-js/eslint-config':
     specifier: 0.0.0-next-20240425064656
     version: 0.0.0-next-20240425064656(typescript@5.0.4)
@@ -1911,8 +1911,8 @@ packages:
       redux: 4.2.1
     dev: false
 
-  /@modern-js/app-tools@2.49.3-alpha.16(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4):
-    resolution: {integrity: sha512-VwCzq/9N0pXanG0GgziS5qUOMdSHlPCNyU2vSlYKupM2Bt3J3lkPz3m+fPtMqwmxNAAgQiD51yuZup84Q/7tkg==}
+  /@modern-js/app-tools@2.49.3-alpha.18(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4):
+    resolution: {integrity: sha512-wGmaapfVoqSkihPqlQRRZ3GNZRUFBbaTHxBi8w7/2k40z6mHWP3vFqq5TPF01PU9fJp9IgyR6sbugPyVhBmpww==}
     engines: {node: '>=14.17.6'}
     hasBin: true
     dependencies:
