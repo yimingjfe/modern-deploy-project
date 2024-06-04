@@ -1,6 +1,6 @@
 [build]
   publish = "dist"
-  command = "npm run deploy"
+  command = "modern deploy"
 
 [functions]
   # Sets a custom directory for Netlify Functions
