@@ -1,7 +1,7 @@
 import './index.css';
 import { configure } from '@modern-js/runtime/bff';
 import { useEffect, useState } from 'react';
-import hello, { postHello } from '@api/index';
+import hello, { postHello } from '../../../api/lambda';
 
 configure({
   interceptor(request) {

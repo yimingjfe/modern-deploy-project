@@ -6,7 +6,6 @@ settings:
 
 overrides:
   '@modern-js-app/eslint-config': 0.0.0-next-20240804145656
-  '@modern-js/app-tools': 0.0.0-next-20240804145656
   '@modern-js/babel-compiler': 0.0.0-next-20240804145656
   '@modern-js/babel-plugin-module-resolver': 0.0.0-next-20240804145656
   '@modern-js/babel-preset': 0.0.0-next-20240804145656
@@ -117,8 +116,8 @@ devDependencies:
     specifier: 0.0.0-next-20240804145656
     version: 0.0.0-next-20240804145656(typescript@5.0.4)
   '@modern-js/app-tools':
-    specifier: 0.0.0-next-20240804145656
-    version: 0.0.0-next-20240804145656(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4)
+    specifier: 2.57.1-alpha.4
+    version: 2.57.1-alpha.4(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4)
   '@modern-js/eslint-config':
     specifier: 0.0.0-next-20240804145656
     version: 0.0.0-next-20240804145656(typescript@5.0.4)
@@ -2085,8 +2084,8 @@ packages:
       redux: 4.2.1
     dev: false
 
-  /@modern-js/app-tools@0.0.0-next-20240804145656(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4):
-    resolution: {integrity: sha512-t9nwS8wrGbQbDCuW84x6tUAajl+v8lVHf/0K1Sw2q43a0VJlyoKyybrRbS+SBk3pPGZgPl8kpmWRwMtU5+cnJQ==}
+  /@modern-js/app-tools@2.57.1-alpha.4(eslint@8.57.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.1.8)(ts-node@10.9.2)(tsconfig-paths@4.2.0)(typescript@5.0.4):
+    resolution: {integrity: sha512-3eDmdTy6YqkwfB9W/WE67891bNHKLGDf9HmYQf51URKkRz9eTCWsU/r0zFdc5+lGNMg2/r3H8pv7MU+8wIkRIg==}
     engines: {node: '>=14.17.6'}
     hasBin: true
     dependencies:
