@@ -4,6 +4,8 @@
     "declaration": false,
     "jsx": "preserve",
     "baseUrl": "./",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "paths": {
       "@/*": ["./src/*"],
       "@shared/*": ["./shared/*"],
