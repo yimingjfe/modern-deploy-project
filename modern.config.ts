@@ -19,7 +19,7 @@ export default defineConfig({
   },
   server: {
     ssr: {
-      mode: 'stream',
+      mode: 'string',
     },
     ssrByEntries: {
       one: false,
