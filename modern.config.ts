@@ -13,6 +13,9 @@ export default defineConfig({
   bff: {
     prefix: '/bff-api',
   },
+  output: {
+    disableMinimize: true,
+  },
   server: {
     ssr: {
       mode: 'stream',
