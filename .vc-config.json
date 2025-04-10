@@ -2,5 +2,6 @@
   "runtime": "nodejs18.x",
   "handler": "index.js",
   "launcherType": "Nodejs",
+  "shouldAddHelpers": false,
   "supportsResponseStreaming": true
 }
