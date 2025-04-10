@@ -32,9 +32,6 @@
     "react-dom": "~18.2.0",
     "zod": "^3.23.5"
   },
-  "engines": {
-    "node": "=18.20.2"
-  },
   "devDependencies": {
     "@modern-js-app/eslint-config": "2.59.0",
     "@modern-js/app-tools": "2.67.1",
