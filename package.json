@@ -11,7 +11,8 @@
     "new": "modern new",
     "lint": "modern lint",
     "prepare": "husky install",
-    "upgrade": "modern upgrade"
+    "upgrade": "modern upgrade",
+    "deploy": "modern deploy && cp -r .vc-config.json .vercel/output/functions/index.func/.vc-config.json"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,mjs,cjs}": [
